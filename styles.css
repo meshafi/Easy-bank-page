@@ -176,7 +176,7 @@ p {
 }
  .article-content {
   margin-bottom: 2rem;
-  width: 22rem;
+  width: 18rem;
   background-color: rgb(255, 250, 250);
   border-radius: 8px;
   text-align: start;
@@ -186,7 +186,7 @@ p {
   display: flex;
   flex-direction: column;
   margin-left:1rem;
-  width: 20rem;
+  width: 15rem;
 }
 
 .flex-images .article-detail p,
@@ -194,6 +194,8 @@ small,
 h3 {
   margin-top: 1rem;
   font-weight: 100;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
 }
 .flex-images .article-detail p {
   text-align: start;
@@ -202,6 +204,7 @@ h3 {
   width: 100%;
   border-radius: 3px;
 }
+
 .box-1{
   padding-left:10vw;
 }
@@ -524,4 +527,15 @@ main .box-3 .flex-images div:hover {
     padding-right:0;
     justify-content: space-evenly;
   }
+}
+
+
+@media screen and (max-width:800px) and (min-width:600px) {
+  .bg_img_container img {
+    position: relative;
+    height: 39rem;
+    width: 81vw;
+    top: -8rem;
+    left: 62px;
+}
 }
